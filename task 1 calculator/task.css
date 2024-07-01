@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgba(226, 236, 245, 0.582);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+
+}
+.box{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal{
+    background: rgba(10, 12, 26, 0.8);;
+    padding:15px;
+    border-radius:30px;
+    box-shadow: inset 5px 4px 12px #000, 5px 4px 12px #eef4ee6b;
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+
+}
+.cal .clr{
+    background:rgba(234, 20, 81, 0.812);
+}
+.cal .d{
+    background: #070436b9;
+    color: white;
+
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width:260px;
+    background-color:#8bc2ed ;
+    box-shadow: inset -5px -5px 12px #8fb3fa,inset 5px 5px 12px #89a2cd6b;
+    border: none;
+    border-radius: 20px;
+    color:rgba(70,70,70);
+    font-size:50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 29px;
+
+}
+button{
+    height: 40px;
+    width: 40px;
+    background-color: hsla(206, 72%, 65%, 0.367) ;
+    box-shadow: -5px -5px 12px #05434b29,5px 5px 12px  #030f1670;
+    border:none;
+    border-radius: 40%;
+    margin: 8px;
+    font-size: 19px;
+
+
+}
+.eq{
+    width:115px;
+    border-radius: 18%;
+    background-color: hsla(206, 72%, 65%, 0.367) ;
+    box-shadow: -5px -5px 12px #05434b29,5px 5px 12px  #030f1670; 
+background: #070436b9;
+color:white;
+
+}
+
+
